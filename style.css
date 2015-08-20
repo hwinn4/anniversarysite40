@@ -1,0 +1,76 @@
+/*
+    Document   : style.css
+    Created on : 2015-08-09 11:40 PM
+    Author     : hwinn
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ root {
+    display: block;
+}
+/* #container {
+    width: 1000px;
+    margin-left:30px;
+    margin-top:50px;
+} */
+
+ li {
+    list-style-type:none;
+    display: inline;
+    font-family:"Arial";
+    font-size:20px;
+  
+    padding: 15px;
+}
+/* #hline {
+    position:relative;
+    margin-left:55px;
+    height:5px;
+    background-color: #000000;
+    width:75%;
+} */
+.galleria {
+    position:relative;
+    width: 700px;
+    height: 400px;
+    background: #000;
+    margin: 100px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+#wishes{
+    position:relative;
+    margin-top:50px;
+    margin-left:100px;
+    float:left;
+    
+}
+#form{
+    float:left;
+    position:relative;
+    margin:50px;
+}
+
+.entry{
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+/*     margin: 20px;
+    padding:10px; */
+   
+}
+.message{
+    margin-bottom:20px;
+}
+.name{
+    font-style:italic;
+}
+#menu{
+    margin:0px;
+    background-color:#dd3311;
+    height:100%;
+}
